@@ -1,7 +1,3 @@
-# Repainter integration
-PRODUCT_PACKAGES += \
-    RepainterServicePriv \
-
 # I hate Safety Net
 PRODUCT_PACKAGES += \
     ih8sn
