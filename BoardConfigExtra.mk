@@ -1,0 +1,8 @@
+VENDOR_EXTRA_PATH := vendor/extra
+
+PRODUCT_SOONG_NAMESPACES += \
+    $(VENDOR_EXTRA_PATH)
+
+# Init
+TARGET_INIT_VENDOR_LIB := //$(VENDOR_EXTRA_PATH):libinit_vendor_extra
+TARGET_RECOVERY_DEVICE_MODULES := libinit_vendor_extra

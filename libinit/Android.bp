@@ -1,0 +1,15 @@
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_vendor_extra",
+    recovery_available: true,
+    srcs: ["init_vendor_extra.cpp"],
+    include_dirs: [
+        "system/core/init"
+    ],
+    shared_libs: [
+        "libbase",
+    ],
+}
